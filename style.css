@@ -1,0 +1,223 @@
+/* Geral */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-family: Poppins;
+    background-color: rgb(233, 233, 233);
+}
+
+table {
+    width: 100%;
+    height: 100%;
+}
+
+td {
+    padding: 0.25rem 0.5rem;
+}
+
+body a {
+    color: white;
+}
+
+td {
+    width: fit-content;
+}
+
+
+/* Header */
+
+.header, .footer {
+    background-color: #A40101;
+    color: white;
+    text-align: center;
+}
+
+.header td {
+    width: 1rem;
+}
+
+#imgLogoHeader {
+    text-align: left;
+}
+
+.elementos-superiores {
+    text-align: right;
+}
+
+.elementos-superiores a:hover {
+    text-decoration: underline;
+}
+
+#loginSignUp {
+    width: fit-content;
+    text-align: center;
+}
+
+#signUp {
+    text-align: left;
+}
+
+#signUp a {
+    color: black;
+    transition: .3s;
+    background-color: white;
+    border-radius: 1.3rem;
+    font-weight: bold;
+    width: fit-content;
+    padding: .4rem 2rem;
+    text-decoration: none;
+}
+
+#signUp a:hover {
+    background-color: #A40101;
+    color: white;
+    border: solid .13rem white;
+    transition: .2s;
+}
+
+#login {
+    text-align: right;
+    font-weight: bold;
+    padding-left: 2.5rem;
+}
+
+#eventosHeader {
+    text-align: left;
+}
+
+#jogosHeader {
+    text-align: center;
+}
+
+
+/* Footer */
+
+.imgLogoFooter {
+    text-align: left;
+}
+
+#imgLogoFooter {
+    width: 100px;
+}
+
+#footer2 {
+    text-align: right;
+}
+
+#contatoFooter {
+    text-align: center;
+}
+
+#contatoFooter a {
+    background-color: white;
+    color: black;
+    padding: .4rem 2rem;
+    border-radius: 1.3rem;
+    font-weight: bold;
+    transition: .3s;
+}
+
+#contatoFooter #btnContato:hover {
+    background-color: #A40101;
+    color: white;
+    border: solid .13rem white;
+    transition: .2s;
+    text-decoration: none;
+}
+
+.opcoesFooter {
+    padding: 1rem;
+}
+
+.opcoesFooter:hover {
+    text-decoration: underline;
+} 
+
+.footer {
+    margin: 1rem;
+}
+
+/* Conteúdo Principal */
+
+.conteudoDestaques img {
+    height: 200px;
+    width: 300px;
+}
+
+.descriçãoDestaque {
+    font-size: 1rem;
+    text-align: left;
+    height: 0.8rem;
+}
+
+
+#promocoesSemana {
+    text-align: center;
+}
+
+#starWarsPromocoes {
+    height: fit-content;
+}
+
+
+.titulos {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.linhaTitulos {
+    height: 5.3rem;
+}
+
+#linhaReviews {
+    height: .5rem;
+}
+
+#reviewsFooter {
+    text-align: left;
+}
+
+.linhaConteudoReviews span {
+    display: inline-block;
+}
+
+.linhaConteudoReviews a {
+    color: black;
+}
+
+.nota {
+    display: inline;
+    font-size: 23px;
+    font-weight: bolder;
+}
+
+#notaEldenRing {
+    color: #008C16;
+}
+
+#notaGranTurismo, #notaHorizonFW {
+    color: #70C800;
+}
+
+.nomeJogoReview {
+    font-weight: bold;
+    margin-bottom: 10%;
+}
+
+#nomeEldenRing {
+    margin-right: 44%;
+}
+
+#nomeGranTurismo {
+    margin-right: 42%;
+}
+
+#nomeHorizon {
+    margin-right: 32%;
+}

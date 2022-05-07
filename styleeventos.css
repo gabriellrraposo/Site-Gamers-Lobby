@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-family: Poppins;
+    background-color: rgb(233, 233, 233);
+}
+
+table {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+body a {
+    color: white;
+}
+
+td {
+    width: fit-content;
+    padding: 0.25rem 0.5rem;
+}
+
+
+/* Header */
+
+.header, .footer {
+    background-color: #A40101;
+    color: white;
+    text-align: center;
+    height: fit-content;
+}
+
+.header td {
+    width: 16%;
+}
+
+#imgLogoHeader {
+    text-align: left;
+}
+
+.elementos-superiores {
+    text-align: right;
+}
+
+.elementos-superiores-opcoes a:hover {
+    text-decoration: underline;
+}
+
+.elementos-superiores-opcoes {
+    text-align: right;
+}
+
+#loginSignUp {
+    width: fit-content;
+    text-align: center;
+}
+
+#signUp {
+    text-align: left;
+}
+
+#signUp a {
+    color: black;
+    transition: .3s;
+    background-color: white;
+    border-radius: 1.3rem;
+    font-weight: bold;
+    width: fit-content;
+    padding: .4rem 2rem;
+}
+
+#signUp a:hover {
+    background-color: #A40101;
+    color: white;
+    border: solid .13rem white;
+    transition: .2s;
+}
+
+#login {
+    text-align: right;
+    font-weight: bold;
+    padding-left: 2.5rem;
+}
+
+
+/* Footer */
+
+.imgLogoFooter {
+    text-align: left;
+}
+
+#imgLogoFooter {
+    width: 100px;
+}
+
+#footer2 {
+    text-align: right;
+}
+
+#contatoFooter {
+    text-align: center;
+}
+
+#contatoFooter a {
+    background-color: white;
+    color: black;
+    padding: .4rem 2rem;
+    border-radius: 1.3rem;
+    font-weight: bold;
+    transition: .3s;
+}
+
+#contatoFooter #btnContato:hover {
+    background-color: #A40101;
+    color: white;
+    border: solid .13rem white;
+    transition: .2s;
+    text-decoration: none;
+}
+
+.opcoesFooter {
+    padding: 1rem;
+}
+
+.opcoesFooter:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    margin: 1rem;
+}
+
+/* Conteúdo Principal */
+
+.titulos, .nomeEvento {
+    font-size: 1.5rem;
+    font-weight: bolder;
+    text-align: left;
+}
+
+.titulos span {
+    margin-left: 1%;
+}
+
+.colunasMain {
+    text-align: left;
+}
+
+#imgEventoPrincipal {
+    text-align: center;
+}
+
+.descricao {
+    color: rgb(51, 51, 51);
+}
+
+.datalocal {
+    font-style: italic;
+}
+
+td img {
+    margin-bottom: 2%;
+    margin-top: 1%;
+}
+
+.imagemEvento2 {
+    margin-left: 5%;
+}
+
+.descricao span, .nomeEvento span {
+    margin-left: 1%;
+}

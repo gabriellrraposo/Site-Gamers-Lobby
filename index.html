@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Gamers Lobby</title>
+	
+	<!-- Adição de fonte Poppins -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="style.css">
+	<link rel="shortcut icon" href="./IMG/imgLogo1.png" type="image/x-icon">
+
+</head>
+<body>
+	
+	<!-- Criação de tabelas para posicionar os elementos na tela -->
+	<table cellspacing="0" >
+		<header>
+			<tr class="header">
+				<div class="container-header">
+					<td class="elementos-superiores" id="imgLogoHeader" colspan="2"><a href="./index.html"><img src="./IMG/imgLogo.png"></a></td>
+					<td class="elementos-superiores"><a href="./noticias.html">Notícias</a></td>
+					<td class="elementos-superiores"><a href="./reviews.html">Reviews</a></td>
+					<td class="elementos-superiores" id="jogosHeader"><a href="./promocoes.html">Promoções</a></td>
+					<td colspan="2" class="elementos-superiores" id="eventosHeader"><a href="./eventos.html">Eventos</a></td>
+					<td id="loginSignUp" translate="no" class="elementos-superiores"><p id="login"><a href="">Login</a></p></td>
+					<td id="loginSignUp" translate="no" class="elementos-superiores"><p id="signUp"><a href="">Sign Up</a></p></td>
+				</div>
+			</tr>
+		</header>
+		
+		<main>
+			<tr class="linhaTitulos">
+				<div class="container-primeira-linha">
+					<td class="titulos" colspan="7">Destaques</td>
+					<div class="container-promocoes">
+						<td rowspan="7" colspan="2" id="promocoesSemana" class="titulos"><h2 class="titulos">Promoções da Semana</h2><br>
+							<a href="./promocoes.html"><img src="./IMG/PaginaInicial/imgDeadByDaylightPromocoes.png" alt="imgDeadByDaylight"></a><br>
+							<a href="./promocoes.html"><img src="./IMG/PaginaInicial/imgPayDayPromocoes.png" alt="imgPayDay"></a><br>
+							<a href="./promocoes.html"><img src="./IMG/PaginaInicial/imgGodOfWarPromocoes.png" alt="imgGodOfWar"></a><br>
+							<a href="./promocoes.html"><img src="./IMG/PaginaInicial/imgStarWarsFallenOrderPromocoes.png" alt="imgStarWarsFallenOrder"></a>
+						</td>
+					</div>
+				</div>
+			</tr>
+			
+			<tr class="linhaImgNoticias">
+				<div class="container-imagens-noticias">
+					<td class="conteudoDestaques" colspan="1"><a href=""><img src="./IMG/PaginaInicial/imgAyatoDestaques.png" alt="imgAyato"></a></td>
+					<td class="conteudoDestaques" colspan="2"><a href=""><img src="./IMG/PaginaInicial/imgCallOfDutyDestaques.png" alt="imgCallOfDuty"></a></td>
+					<td class="conteudoDestaques" colspan="4"><a href=""><img src="./IMG/PaginaInicial/imgResidentEvilDestaques.png" alt="imgResidentEvil"></a></td>
+				</div>
+			</tr>
+			
+			<tr class="linhaDescricaoNoticias">
+				<div class="container-descricao-noticias">
+					<td class="descriçãoDestaque" colspan="1"><span id="descricaoNoticia">Saiba como assistir à live de anúncio<br>da 2.6</span></td>
+					<td class="descriçãoDestaque" colspan="2"><span id="descricaoNoticia">Call of Duty Mobile anuncia evento<br>em parceria com Razer Gold</span></td>
+					<td class="descriçãoDestaque" colspan="4"><span id="descricaoNoticia">Netflix anuncia lançamento<br>de live-action de Resident Evil</span></td>
+				</div>
+			</tr>
+			
+			<tr class="linhaTitulos" id="linhaReviews">
+				<div class="container-titulo-reviews">
+					<td id="reviews" class="titulos" colspan="7">Reviews</td>
+				</div>
+			</tr>
+			
+			<tr class="linhaConteudoReviews">
+				<div class="container-conteudos-reviews">
+					<td colspan="1"><a href="./reviews.html"><img src="./IMG/PaginaInicial/imgEldenRingReviews.png" alt="imgEldenRing"><br><span class="nomeJogoReview" id="nomeEldenRing">Elden Ring</span><span class="nota" id="notaEldenRing">10</span></a></td>
+					<td colspan="2"><a href="./reviews.html"><img src="./IMG/PaginaInicial/imgGranTurismo7Reviews.png" alt="imgGranTurismo7"><br><span class="nomeJogoReview" id="nomeGranTurismo">Gran Turismo 7</span><span class="nota" id="notaGranTurismo">8</span></a></td>
+					<td colspan="4"><a href="./reviews.html"><img src="./IMG/PaginaInicial/imgHorizonForbbidenWestReviews.png" alt="imgHorizonForbbidenWest"><br><span class="nomeJogoReview" id="nomeHorizon">Horizon Forbbiden West</span><span class="nota" id="notaHorizonFW">8</span></a></td>
+				</div>
+			</tr>
+			
+			
+			<tr class="linhatitulosPgInicial" id="linhaEventosProximos">
+				<div class="container-titulo-eventosproximos">
+					<td id="eventosProximos" class="titulos" colspan="7">Eventos Próximos</td>
+				</div>
+			</tr>
+
+			<tr class="linhaImgEventos">
+				<div class="container-imagens-eventos">
+					<td colspan="1"><a href="./eventos.html"><img src="./IMG/PaginaInicial/imgGDCEventos.png" alt="imgGDC"></a></td>
+					<td colspan="2"><a href="./eventos.html"><img src="./IMG/PaginaInicial/imgSummerGameFestEventos.png" alt="imgSummerGameFest"></a></td>
+					<td colspan="4"><a href="./eventos.html"><img src="./IMG/PaginaInicial/imgE3Eventos.png" alt="imgE3"></a></td>
+				</div>
+			</tr>
+		</main>
+		
+		<footer>
+			<tr class="footer">
+				<td class="imgLogoFooter" colspan="1" rowspan="2"><a href="./index.html"><img src="./IMG/imgLogoFooter.png" alt="imgLogo" id="imgLogoFooter"></a></td>
+				<td colspan="8"></td>
+			</tr>
+			<tr class="footer" id="footer2">
+				<div class="container-footer">
+					<td id="PaginaInicialFooter" ><a href="./index.html" class="opcoesFooter">Página Inicial</a></td>
+					<td><a href="./noticias.html" class="opcoesFooter">Notícias</a></td>
+					<td><a href="./eventos.html" class="opcoesFooter">Eventos</a></td>
+					<td><a href="./promocoes.html" class="opcoesFooter">Promoções</a></td>
+					<td colspan="3" id="reviewsFooter" ><a href="./reviews.html" class="opcoesFooter">Reviews</a></td>
+					<td colspan="1" id="contatoFooter" ><a href="./contato.html" class="opcoesFooter" id="btnContato">Contato</a></td>
+				</div>
+			</tr>
+		</footer>
+	</table>
+</body>
+</html>
